@@ -36,8 +36,9 @@ cd apikey-store
 
 ### 2. Activate the virtual environment
 
-``` python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 ### 3. Install dependencies 
@@ -49,13 +50,16 @@ pip install -r requirements.txt
 
 ### 4. Run Migrations
 
-``` python manage.py makemigrations core
-    python manage.py migrate
+```
+python manage.py makemigrations core
+python manage.py migrate
 ```
 
 ### 5. Start the development server
 
-``` python manage.py runserver```
+``` 
+python manage.py runserver
+```
 
 ### 6. Endpoints
 
