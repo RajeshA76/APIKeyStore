@@ -70,9 +70,9 @@ python manage.py runserver
 | `POST`   | `/set-key/`           | Set encryption key in session     |
 | `GET`    | `/download-key/`      | One-time encryption key download  |
 | `GET`    | `/home/`              | API key management UI             |
-| `POST`   | `/apikey-store/`      | Add a new encrypted API key       |
-| `GET`    | `/apikey-store/`      | List all stored API keys          |
-| `DELETE` | `/apikey-store/<id>/` | Delete a specific API key         |
+| `POST`   | `/apikey/`             | Add a new encrypted API key       |
+| `GET`    | `/apikey/`             | List all stored API keys          |
+| `DELETE` | `/apikey/<id>/`        | Delete a specific API key         |
 | `POST`   | `/decrypt-apikey/`    | Decrypt API key using session key |
 
 ### 7. Encryption Design
