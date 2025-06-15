@@ -68,7 +68,6 @@ python manage.py runserver
 | `POST`   | `/signup/`            | Register a new user               |
 | `POST`   | `/login/`             | Log in with email and password    |
 | `POST`   | `/set-key/`           | Set encryption key in session     |
-| `GET`    | `/download-key/`      | One-time encryption key download  |
 | `GET`    | `/home/`              | API key management UI             |
 | `POST`   | `/apikey/`             | Add a new encrypted API key       |
 | `GET`    | `/apikey/`             | List all stored API keys          |
